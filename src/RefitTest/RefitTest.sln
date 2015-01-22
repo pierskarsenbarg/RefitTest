@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refit-Net45", "..\..\refit\Refit\Refit-Net45.csproj", "{252CE1CA-19FA-4445-A3C2-E4D6C80A935A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refit.WebApi", "..\Refit.WebApi\Refit.WebApi.csproj", "{41A395C9-18A3-47B6-9585-7696E5E585CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7B00E18C-576F-475E-97BD-F9FB70E35749}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefitTestProject", "..\RefitTestProject\RefitTestProject.csproj", "{260DE8AD-7310-4F29-BF5C-10771EF756C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{252CE1CA-19FA-4445-A3C2-E4D6C80A935A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252CE1CA-19FA-4445-A3C2-E4D6C80A935A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252CE1CA-19FA-4445-A3C2-E4D6C80A935A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252CE1CA-19FA-4445-A3C2-E4D6C80A935A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A395C9-18A3-47B6-9585-7696E5E585CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A395C9-18A3-47B6-9585-7696E5E585CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A395C9-18A3-47B6-9585-7696E5E585CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A395C9-18A3-47B6-9585-7696E5E585CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260DE8AD-7310-4F29-BF5C-10771EF756C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260DE8AD-7310-4F29-BF5C-10771EF756C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260DE8AD-7310-4F29-BF5C-10771EF756C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260DE8AD-7310-4F29-BF5C-10771EF756C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
